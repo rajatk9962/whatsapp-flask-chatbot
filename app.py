@@ -1,6 +1,6 @@
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
-
+from chatbot_train import get_response
 app = Flask(__name__)
 
 @app.route("/")
@@ -12,10 +12,11 @@ def sms_reply():
     """Respond to incoming calls with a simple text message."""
     # Fetch the message
     msg = request.form.get('Body')
-
+    
     # Create reply
     resp = MessagingResponse()
-    resp.message("You said aaa: {}".format(msg))
+    reply=get_response(msg)
+    resp.message("Solution: {}".format(reply))
 
     return str(resp)
 
