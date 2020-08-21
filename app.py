@@ -34,7 +34,7 @@ def send_media():
         .create(
             media_url=['https://drive.google.com/uc?export=download&id=15gRZAuVFEk1MHtWKMvho6MN4lLIOsc1H'],
             from_='whatsapp:+14155238886',
-            body="It's taco time!",
+            body="Sample",
             to='whatsapp:+917738560715'
         )
 
