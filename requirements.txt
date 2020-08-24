@@ -27,7 +27,7 @@ joblib==0.16.0
 Keras-Preprocessing==1.1.0
 MarkupSafe==1.1.1
 mathparse==0.1.2
-mkl-fft==1.1.0
+mkl-fft
 mkl-random==1.1.1
 mkl-service==2.3.0
 murmurhash==1.0.2
