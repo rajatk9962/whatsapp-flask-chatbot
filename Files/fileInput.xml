@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<NITMasters>
+  <Transaction>
+    <TransactionID>PC_41769574</TransactionID>
+    <MasterDocumentPackageName>CAHOMasterPackage</MasterDocumentPackageName>
+    <DocumentCenter>PC</DocumentCenter>
+    <OP_ChangeSequenceNumber>3</OP_ChangeSequenceNumber>
+    <OP_PolicyNumber>9662432</OP_PolicyNumber>
+    <OP_TerminalDigit>4362960000HPCA</OP_TerminalDigit>
+    <OP_SpoolingState>CA</OP_SpoolingState>
+    <OP_LineOfBusiness>21</OP_LineOfBusiness>
+    <PolicyNumber>CAHP0000966243</PolicyNumber>
+   
+    <Effective_Date>2020-07-06</Effective_Date>
+    <Language>en_US</Language>
+   
+    <Recipient>
+      
+	<Type>Insured</Type>
+      <SequenceNumber>0</SequenceNumber>
+      <RecipientID>IN-99717222</RecipientID>
+      <Name>John Lee</Name>
+	  <Email>nilkantha.chakraborty@gmail.com</Email>
+      <AddressLine1>Del Sur</AddressLine1>
+      <City>Marcos</City>
+      <State>CA</State>
+      <Zip5>92078</Zip5>
+      <Zip4>2828</Zip4>
+      <County>SAN DIEGO</County>
+      <PhoneNumber>(735) 858-3318</PhoneNumber>
+      <WhatsAppNumber>(735) 858-3318</WhatsAppNumber>
+      <BinCall>000000</BinCall>
+      <OP_RecipientSortCriteria>CLARENCE M Lee711 Costa Del Sur</OP_RecipientSortCriteria>
+      <AmountDueText>Billed Amount</AmountDueText>
+      <Triggers>
+        <ReverseSideMessage_Front>Y</ReverseSideMessage_Front>
+        <ImportantMessage_Front>MortIns</ImportantMessage_Front>
+        <PaymentStub_Front>MortMsg</PaymentStub_Front>
+        <PaymentOptions_Back>Y</PaymentOptions_Back>
+        <ImportantMessage_Back>HO</ImportantMessage_Back>
+        <PayYourBill_Back>Y</PayYourBill_Back>
+        <PaymentStub_Back>Y</PaymentStub_Back>
+      </Triggers>
+	</Recipient>  
+	<Recipient>
+	<Type>Insured</Type>
+      <SequenceNumber>0</SequenceNumber>
+      <RecipientID>IN-99717222</RecipientID>
+      <Name>John Lee1</Name>
+	  <Email>ricankilla69@gmail.com</Email>
+      <AddressLine1>Del Sur</AddressLine1>
+      <City>Marcos</City>
+      <State>CA</State>
+      <Zip5>92078</Zip5>
+      <Zip4>2828</Zip4>
+      <County>SAN DIEGO</County>
+      <PhoneNumber>(735) 858-3318</PhoneNumber>
+      <WhatsAppNumber>(735) 858-3318</WhatsAppNumber>
+      <BinCall>000000</BinCall>
+      <OP_RecipientSortCriteria>CLARENCE M Lee711 Costa Del Sur</OP_RecipientSortCriteria>
+      <AmountDueText>Billed Amount</AmountDueText>
+      <Triggers>
+        <ReverseSideMessage_Front>Y</ReverseSideMessage_Front>
+        <ImportantMessage_Front>MortIns</ImportantMessage_Front>
+        <PaymentStub_Front>MortMsg</PaymentStub_Front>
+        <PaymentOptions_Back>Y</PaymentOptions_Back>
+        <ImportantMessage_Back>HO</ImportantMessage_Back>
+        <PayYourBill_Back>Y</PayYourBill_Back>
+        <PaymentStub_Back>Y</PaymentStub_Back>
+      </Triggers>
+    </Recipient>  
+    <PC_PolicyCenter>
+      <PolicyNumber>abcd2345</PolicyNumber>
+     
+    </PC_PolicyCenter>
+    <Forms>
+      <Form>
+        <FormID>Static01</FormID>
+        <FormRequestID>033</FormRequestID>
+       
+        <Form_RecipInfo>
+          <RecipType>Insured</RecipType>
+          <RecipientID>IN-99717222</RecipientID>
+          <Form_ProcessType>
+            <ProcessType>Batch</ProcessType>
+          </Form_ProcessType>
+        </Form_RecipInfo>
+      </Form>
+     
+    </Forms>
+  </Transaction>
+</NITMasters>

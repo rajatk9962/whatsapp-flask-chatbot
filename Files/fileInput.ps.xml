@@ -1,0 +1,19 @@
+<Partition>
+       <Package>
+		<Email>rajatk9962@gmail.com</Email>
+         <Document>
+            <Attr name="GWHO.BATCH.Recipient.WhatsAppNumber" value="7358583318" />
+            <Attr name="GWHO.BATCH.SORT.FormRequestID" value="102" />
+           
+         </Document>
+         <!-- Package Level Attributes -->
+       
+         <Attr name="TotalVersoPagesInPackage" value="5" />
+         <Attr name="TotalBlankPagesInsertedInPackage" value="1" />
+      </Package>
+      <!-- Partition Level Attributes -->
+     
+      <Attr name="TotalBlankPagesInsertedInPartition" value="1" />
+      <Attr name="CurrentPackageInPartition" value="1" />
+      <Attr name="PartitionOutputFileName" value="/apps/share/Batch/PS/abcSample.pdf" />
+   </Partition>

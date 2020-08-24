@@ -1,0 +1,60 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "upgrade",
+         "patterns": ["CDC: Upgrade to EMC version 4.6 SP1 Patch 21 - Text that is entered over 255 bytes is not saved on the form in xEditor. xEditor text issue"],
+         "responses": ["null"],
+         "context_set": ""
+        },
+        {"tag": "batch",
+         "patterns": ["Batch Job Performance Degraded after Patch 29 and Hotfix"],
+         "responses": ["null"],
+         "context_set": ""
+        },
+        {"tag": "tab",
+         "patterns": ["xEditor Tab Issue When form opens in xEditor, pressed tab key on keyboard to go to next field. Instead of going to next field, the text in the field is deleted, and then field is expanded.Expected to go to next editable field when pressing tab key"],
+         "responses": ["Use Up Arrow and Down Arrow instead of tab"],
+         "context_set": ""
+        },
+        {"tag": "bold",
+         "patterns": ["xEditor Name Not Bold CDC Upgrade to EMC version 4.6 SP1 Patch 21  Phone Number under the Adjuster Name is not bold in xEditor xEditor Name Not Bold"],
+         "responses": ["Vendor provided hotfix."],
+         "context_set": ""
+        },
+        {"tag": "hidden",
+        "patterns": ["Hidden Field Issue Upgrade to EMC version 4.6 SP1 Patch 21 - Issues when using xEditor - MD1 form having hidden editable field.There is a hidden editable field under Mercury Retained table which user can enter text in."],
+        "responses": ["Still an issue Not working when optional paragraph is added"],
+        "context_set": ""
+        },
+        {"tag": "action",
+        "patterns": ["xEditor Document Action Document Actions is not displaying after install"],
+        "responses": ["Issue is resloved when Word settings are set based on vendor suggestions."],
+        "context_set": ""
+        },
+        {"tag": "editing",
+        "patterns": ["Restrict Editing issue Unable to edit form after removing Restrict Editing option Unable to enter in text when ‘Restrict Editing’ option is not selected."],
+        "responses": ["Still an issue. Not able to remove Restrict Editing option from Review tab and enter text."],
+        "context_set": ""
+        },
+        {"tag": "slowness",
+        "patterns": ["Slowness xEditor Window open slowness"],
+        "responses": ["Still an issue.It takes on average 20 seconds to open xEditor, It is up an average of 11 seconds from 4.5 version."],
+        "context_set": ""
+        },
+        {"tag": "working",
+        "patterns": ["Optional Content issue Old WIP document created in xEditor 4.5 is not working in xEditor 4.6 for the select/un-select optional content. Optional Content issue"],
+        "responses": ["Still an issue"],
+        "context_set": ""
+        }
+
+        
+   ]
+}
