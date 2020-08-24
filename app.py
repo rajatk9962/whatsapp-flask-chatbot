@@ -8,6 +8,8 @@ import xml.etree.ElementTree as et
 import glob 
 from twilio.twiml.messaging_response import MessagingResponse
 from twilio.rest import Client
+import nltk 
+nltk.download('punkt')
 
 app = Flask(__name__)
 mail= Mail(app)
