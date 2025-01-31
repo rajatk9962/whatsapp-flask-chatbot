@@ -18,7 +18,7 @@ app.secret_key = 'mysecret'
 
 # Enter your database connection details below
 app.config['MONGO_DBNAME'] = 'mongologin'
-app.config['MONGO_URI'] = 'mongodb+srv://admin:rkXObFAjPJS5o0zV@cluster0.wv7lh.mongodb.net/mongologin?retryWrites=true&w=majority'
+app.config['MONGO_URI'] = ''
 
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
@@ -157,8 +157,8 @@ def get_bot_response():
                 msg= "Email not present in database"    
     elif 'pdf' in userText:
         lst = re.findall('\d{4}[-\.\s]??\d{4}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{15}[-\.\s]??\d{4}', userText)
-        account_sid = 'ACa5dc979d2cddc016a19b6d65b1044e35'
-        auth_token = '3f1c0487c13fe753eb47954e9b6606ca'
+        account_sid = ''
+        auth_token = ''
         client = Client(account_sid, auth_token)
         print(lst)
         for phoneno in lst:
@@ -200,16 +200,16 @@ def sms_reply():
 def send_media():
     # Your Account Sid and Auth Token from twilio.com/console
     # DANGER! This is insecure. See http://twil.io/secure
-    account_sid = 'ACa5dc979d2cddc016a19b6d65b1044e35'
-    auth_token = '3f1c0487c13fe753eb47954e9b6606ca'
+    account_sid = ''
+    auth_token = ''
     client = Client(account_sid, auth_token)
 
     message = client.messages \
         .create(
             media_url=['https://drive.google.com/uc?export=download&id=15gRZAuVFEk1MHtWKMvho6MN4lLIOsc1H'],
-            from_='whatsapp:+14155238886',
+            from_='whatsapp:+1',
             body="Sample",
-            to='whatsapp:+917358583318'
+            to='whatsapp:+91'
         )
 
     print(message.sid)
